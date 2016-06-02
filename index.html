@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="geomamaApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Geomama - trackyo' vehicles online</title>
+    <!-- STYLESHEETS -->
+    <!-- CUSTOM FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <!-- RATCHET CSS -->
+    <link rel="stylesheet" href="assets/styles/ratchet.css">
+    <!-- MASTER.CSS -->
+    <link rel="stylesheet" href="assets/styles/master.css">
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="assets/scripts/angular.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/javascript.js"></script>
+
+    <script src="assets/scripts/form.php"></script>
+
+    <!-- online jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- local jquery -->
+    <script type="text/javascript" src="assets/scripts/localjquery.js"></script>
+
+    <script type="text/javascript" src="assets/scripts/app.js"></script>
+  </head>
+  <body>
+    <!-- PLACEHOLDER FOR 'VIEW' MARKUP -->
+    <div class="wrapper" ng-view>
+      <a href="index.html">
+        <img src="assets/images/geomama_logo.png" alt="geomama_logo" />
+      </a>
+      <form class="" action="form.php" method="post">
+        <input type="text" name="username" value="" placeholder="Username" autofocus>
+        <input type="password" name="password" value="" placeholder=Password>
+        <!-- <div id="login"><h3>Login</h3></div> -->
+        <input type="submit" name="submit" value="Login" id="submit">
+      </form>
+
+      <!-- php script -->
+      <!-- <script type="text/php">
+        <?php
+          header('location:views/RootControllerView.php');
+        ?>
+      </script> -->
+
+    </div>
+    <footer>
+      &copy; 2016
+    </footer>
+  </body>
+</html>

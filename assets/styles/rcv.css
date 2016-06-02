@@ -1,0 +1,26 @@
+body {
+  font-family: "Poiret One", cursive; }
+  body .vehicles {
+    list-style-type: none;
+    width: auto;
+    overflow: hidden;
+    padding: 0px; }
+    body .vehicles > li {
+      margin: 4px 0;
+      background: rgba(220, 220, 220, 0.4);
+      padding: 5px;
+      border-radius: 5px;
+      font-weight: bold; }
+      body .vehicles > li ul {
+        list-style-type: none; }
+        body .vehicles > li ul li {
+          display: inline-block; }
+          body .vehicles > li ul li img {
+            height: 40px;
+            width: 40px; }
+          body .vehicles > li ul li h3 {
+            background-color: darkgray;
+            padding: 5px;
+            border-radius: 4px; }
+
+/*# sourceMappingURL=rcv.css.map */

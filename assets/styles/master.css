@@ -1,0 +1,31 @@
+* {
+  margin: auto;
+  padding: 0; }
+
+body {
+  font-family: "Poiret One", cursive;
+  background-color: rgba(17, 48, 86, 0.84);
+  text-align: center; }
+  body .wrapper {
+    width: 320px;
+    height: 100vh; }
+    body .wrapper img {
+      padding-top: 140px; }
+    body .wrapper form input {
+      display: block;
+      padding: 10px;
+      border-radius: 4px;
+      border: 0;
+      margin: 2px auto; }
+    body .wrapper form #submit {
+      margin: 40px auto;
+      cursor: pointer; }
+  body footer {
+    color: #fff;
+    margin: 5px auto; }
+    body footer::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+/*# sourceMappingURL=master.css.map */

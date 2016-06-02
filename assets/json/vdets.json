@@ -1,0 +1,13 @@
+{
+  "vehicle-details": [
+    {"vehicle-id": ""},
+    {"vehicle-group": ""},
+    {"address": ""},
+    {"date": ""},
+    {"time": ""},
+    {"odometer": ""},
+    {"driver": ""},
+    {"mobile": ""},
+    {"status": ""}
+  ]
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE php>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Geomama - Trackyo' vehicles online</title>
+
+    <!-- STYLESHEETS -->
+    <!-- CUSTOM FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" href="../assets/styles/master.css"> -->
+    <!-- RCV STYLESHEET -->
+    <link rel="stylesheet" href="../assets/styles/rcv.css">
+  </head>
+  <body>
+    <ul class="vehicles">
+      <li id="demo">
+        <h4>VEHICLE ID</h4>
+      <li>
+        <ul>
+          <li><img src="../assets/images/green.svg" alt="" /></li>
+          <li><h3>VEHICLE ID: <span>#</span></h3></li>
+          <li><h4>Vehicle Group: <span>#</span></h4></li>
+          <li><h4>Location</h4></li>
+          <li><h4>d/m/y - xx:yy</h4></li>
+          <li><h4>Odometer</h4></li>
+          <li><h4>Driver</h4></li>
+          <li><h4>Mobile</h4></li>
+          <li><h4>Status</h4></li>
+          <li>km/hr</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><img src="../assets/images/yellow.svg" alt="" /></li>
+          <li><h3>VEHICLE ID: <span>#</span></h3></li>
+          <li><h4>Vehicle Group: <span>#</span></h4></li>
+          <li><h4>Location</h4></li>
+          <li><h4>d/m/y - xx:yy</h4></li>
+          <li><h4>Odometer</h4></li>
+          <li><h4>Driver</h4></li>
+          <li><h4>Mobile</h4></li>
+          <li><h4>Status</h4></li>
+          <li>km/hr</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><img src="../assets/images/blue.svg" alt="" /></li>
+          <li><h3>VEHICLE ID: <span>#</span></h3></li>
+          <li><h4>Vehicle Group: <span>#</span></h4></li>
+          <li><h4>Location</h4></li>
+          <li><h4>d/m/y - xx:yy</h4></li>
+          <li><h4>Odometer</h4></li>
+          <li><h4>Driver</h4></li>
+          <li><h4>Mobile</h4></li>
+          <li><h4>Status</h4></li>
+          <li>km/hr</li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><img src="../assets/images/gray.svg" alt="" /></li>
+          <li><h3>VEHICLE ID: <span>#</span></h3></li>
+          <li><h4>Vehicle Group: <span>#</span></h4></li>
+          <li><h4>Location</h4></li>
+          <li><h4>d/m/y - xx:yy</h4></li>
+          <li><h4>Odometer</h4></li>
+          <li><h4>Driver</h4></li>
+          <li><h4>Mobile</h4></li>
+          <li><h4>Status</h4></li>
+          <li>km/hr</li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <!-- scripts -->
+    <script type="text/javascript" src="../assets/scripts/javascript.js"></script>
+  </body>
+</html>
